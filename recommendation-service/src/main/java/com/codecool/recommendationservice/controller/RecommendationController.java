@@ -24,5 +24,10 @@ public class RecommendationController {
         return recommendationRepository.getAllRecommendationByVideoId(videoId);
     }
 
-
+    @PostMapping("/{videoId}")
+    public void addNewRecommendationToGivenVideoById(@PathVariable("videoId") Long videoId,
+                                                     @RequestParam String comment,
+                                                     @RequestParam int rating) {
+        recommendationService.createNewRecommendationForVideo(videoId, comment, rating);
+    }
 }

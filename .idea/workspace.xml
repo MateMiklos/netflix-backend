@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d047e327-7fe6-4c15-aa9f-ecf449462c2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/RecommendationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/RecommendationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/controller/RecommendationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/controller/RecommendationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +195,11 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a29b38a7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec64132d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a29b38a7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c101394c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
           </expand>
           <select />
         </treeState>
@@ -216,7 +222,7 @@
       <workItem from="1574063863764" duration="1514000" />
       <workItem from="1574070737859" duration="12047000" />
       <workItem from="1574152415647" duration="13812000" />
-      <workItem from="1574238458012" duration="14656000" />
+      <workItem from="1574238458012" duration="15468000" />
     </task>
     <servers />
   </component>
