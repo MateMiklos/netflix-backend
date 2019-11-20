@@ -16,12 +16,10 @@ public class RecommendationService {
         return response;
     }
 
-
     @Autowired
     private RecommendationRepository recommendationRepository;
 
     public void createNewRecommendationForVideo(Long videoId) {
-
 
         Recommendation recommendation = Recommendation.builder()
                 .videoId(videoId)

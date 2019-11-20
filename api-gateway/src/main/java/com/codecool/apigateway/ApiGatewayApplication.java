@@ -34,7 +34,7 @@ public class ApiGatewayApplication {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.any())
-				.paths(PathSelectors.ant("/video/**"))
+				.paths(PathSelectors.ant("/recommendations/**"))
 				.build();
 	}
 

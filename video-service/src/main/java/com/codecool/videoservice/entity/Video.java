@@ -21,6 +21,5 @@ public class Video {
 
     private String url;
 
-//    @EqualsAndHashCode.Exclude
 //    private List<Long> recommendationIds;
 }

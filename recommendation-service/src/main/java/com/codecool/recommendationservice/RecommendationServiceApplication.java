@@ -1,6 +1,7 @@
 package com.codecool.recommendationservice;
 
-import com.codecool.recommendationservice.service.RecommendationService;
+import com.codecool.recommendationservice.entity.Recommendation;
+import com.codecool.recommendationservice.repository.RecommendationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,8 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
+import java.util.Arrays;
+
 @SpringBootApplication
 public class RecommendationServiceApplication {
 
@@ -20,7 +23,7 @@ public class RecommendationServiceApplication {
 	}
 
 	@Autowired
-	private RecommendationService recommendationService;
+	private RecommendationRepository recommendationRepository;
 
 	@Bean
 	public Docket api() {
@@ -35,8 +38,22 @@ public class RecommendationServiceApplication {
 	@Profile("production")
 	public CommandLineRunner init() {
 		return args -> {
-//			System.out.println(recommendationService.getJsonFromGivenUrl("1").getBody());
-//			System.out.println(recommendationService.getJsonFromGivenUrl("1"));
+
+			Recommendation commentForWotlk1 = Recommendation.builder()
+					.comment("Wohhhoooo")
+					.rating(4)
+					.videoId(1L)
+					.build();
+
+			Recommendation commentForWotlk2 = Recommendation.builder()
+					.comment("Arthas rulez!!!")
+					.rating(5)
+					.videoId(1L)
+					.build();
+
+
+
+			recommendationRepository.saveAll(Arrays.asList(commentForWotlk1, commentForWotlk2));
 
 		};
 	}

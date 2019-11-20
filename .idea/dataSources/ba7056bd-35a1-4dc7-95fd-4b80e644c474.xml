@@ -47,13 +47,13 @@
     <collation id="32" parent="2" name="CATALAN_SPAIN"/>
     <collation id="33" parent="2" name="CHINESE"/>
     <collation id="34" parent="2" name="CHINESE_CHINA"/>
-    <collation id="35" parent="2" name="CHINESE_HONG_KONG_SAR_CHINA"/>
+    <collation id="35" parent="2" name="CHINESE_HONG_KONG"/>
     <collation id="36" parent="2" name="CHINESE_SINGAPORE"/>
     <collation id="37" parent="2" name="CHINESE_TAIWAN"/>
     <collation id="38" parent="2" name="CROATIAN"/>
     <collation id="39" parent="2" name="CROATIAN_CROATIA"/>
     <collation id="40" parent="2" name="CZECH"/>
-    <collation id="41" parent="2" name="CZECH_CZECHIA"/>
+    <collation id="41" parent="2" name="CZECH_CZECH_REPUBLIC"/>
     <collation id="42" parent="2" name="DANISH"/>
     <collation id="43" parent="2" name="DANISH_DENMARK"/>
     <collation id="44" parent="2" name="DUTCH"/>
@@ -84,97 +84,136 @@
     <collation id="69" parent="2" name="GERMAN"/>
     <collation id="70" parent="2" name="GERMAN_AUSTRIA"/>
     <collation id="71" parent="2" name="GERMAN_GERMANY"/>
-    <collation id="72" parent="2" name="GERMAN_LUXEMBOURG"/>
-    <collation id="73" parent="2" name="GERMAN_SWITZERLAND"/>
-    <collation id="74" parent="2" name="GREEK"/>
-    <collation id="75" parent="2" name="GREEK_CYPRUS"/>
-    <collation id="76" parent="2" name="GREEK_GREECE"/>
-    <collation id="77" parent="2" name="HEBREW"/>
-    <collation id="78" parent="2" name="HEBREW_ISRAEL"/>
-    <collation id="79" parent="2" name="HINDI"/>
-    <collation id="80" parent="2" name="HINDI_INDIA"/>
-    <collation id="81" parent="2" name="HUNGARIAN"/>
-    <collation id="82" parent="2" name="HUNGARIAN_HUNGARY"/>
-    <collation id="83" parent="2" name="ICELANDIC"/>
-    <collation id="84" parent="2" name="ICELANDIC_ICELAND"/>
-    <collation id="85" parent="2" name="INDONESIAN"/>
-    <collation id="86" parent="2" name="INDONESIAN_INDONESIA"/>
-    <collation id="87" parent="2" name="IRISH"/>
-    <collation id="88" parent="2" name="IRISH_IRELAND"/>
-    <collation id="89" parent="2" name="ITALIAN"/>
-    <collation id="90" parent="2" name="ITALIAN_ITALY"/>
-    <collation id="91" parent="2" name="ITALIAN_SWITZERLAND"/>
-    <collation id="92" parent="2" name="JAPANESE"/>
-    <collation id="93" parent="2" name="JAPANESE_JAPAN"/>
-    <collation id="94" parent="2" name="JAPANESE_JAPAN_JP"/>
-    <collation id="95" parent="2" name="KOREAN"/>
-    <collation id="96" parent="2" name="KOREAN_SOUTH_KOREA"/>
-    <collation id="97" parent="2" name="LATVIAN"/>
-    <collation id="98" parent="2" name="LATVIAN_LATVIA"/>
-    <collation id="99" parent="2" name="LITHUANIAN"/>
-    <collation id="100" parent="2" name="LITHUANIAN_LITHUANIA"/>
-    <collation id="101" parent="2" name="MACEDONIAN"/>
-    <collation id="102" parent="2" name="MACEDONIAN_MACEDONIA"/>
-    <collation id="103" parent="2" name="MALAY"/>
-    <collation id="104" parent="2" name="MALAY_MALAYSIA"/>
-    <collation id="105" parent="2" name="MALTESE"/>
-    <collation id="106" parent="2" name="MALTESE_MALTA"/>
-    <collation id="107" parent="2" name="NORWEGIAN"/>
-    <collation id="108" parent="2" name="NORWEGIAN_BOKMÅL"/>
-    <collation id="109" parent="2" name="NORWEGIAN_BOKMÅL_NORWAY"/>
-    <collation id="110" parent="2" name="NORWEGIAN_NORWAY"/>
-    <collation id="111" parent="2" name="NORWEGIAN_NORWAY_NY"/>
-    <collation id="112" parent="2" name="NORWEGIAN_NYNORSK_NORWAY"/>
-    <collation id="113" parent="2" name="POLISH"/>
-    <collation id="114" parent="2" name="POLISH_POLAND"/>
-    <collation id="115" parent="2" name="PORTUGUESE"/>
-    <collation id="116" parent="2" name="PORTUGUESE_BRAZIL"/>
-    <collation id="117" parent="2" name="PORTUGUESE_PORTUGAL"/>
-    <collation id="118" parent="2" name="ROMANIAN"/>
-    <collation id="119" parent="2" name="ROMANIAN_ROMANIA"/>
-    <collation id="120" parent="2" name="RUSSIAN"/>
-    <collation id="121" parent="2" name="RUSSIAN_RUSSIA"/>
-    <collation id="122" parent="2" name="SERBIAN"/>
-    <collation id="123" parent="2" name="SERBIAN_BOSNIA_&amp;_HERZEGOVINA"/>
-    <collation id="124" parent="2" name="SERBIAN_MONTENEGRO"/>
-    <collation id="125" parent="2" name="SERBIAN_SERBIA"/>
-    <collation id="126" parent="2" name="SERBIAN_SERBIA_AND_MONTENEGRO"/>
-    <collation id="127" parent="2" name="SLOVAK"/>
-    <collation id="128" parent="2" name="SLOVAK_SLOVAKIA"/>
-    <collation id="129" parent="2" name="SLOVENIAN"/>
-    <collation id="130" parent="2" name="SLOVENIAN_SLOVENIA"/>
-    <collation id="131" parent="2" name="SPANISH"/>
-    <collation id="132" parent="2" name="SPANISH_ARGENTINA"/>
-    <collation id="133" parent="2" name="SPANISH_BOLIVIA"/>
-    <collation id="134" parent="2" name="SPANISH_CHILE"/>
-    <collation id="135" parent="2" name="SPANISH_COLOMBIA"/>
-    <collation id="136" parent="2" name="SPANISH_COSTA_RICA"/>
-    <collation id="137" parent="2" name="SPANISH_CUBA"/>
-    <collation id="138" parent="2" name="SPANISH_DOMINICAN_REPUBLIC"/>
-    <collation id="139" parent="2" name="SPANISH_ECUADOR"/>
-    <collation id="140" parent="2" name="SPANISH_EL_SALVADOR"/>
-    <collation id="141" parent="2" name="SPANISH_GUATEMALA"/>
-    <collation id="142" parent="2" name="SPANISH_HONDURAS"/>
-    <collation id="143" parent="2" name="SPANISH_MEXICO"/>
-    <collation id="144" parent="2" name="SPANISH_NICARAGUA"/>
-    <collation id="145" parent="2" name="SPANISH_PANAMA"/>
-    <collation id="146" parent="2" name="SPANISH_PARAGUAY"/>
-    <collation id="147" parent="2" name="SPANISH_PERU"/>
-    <collation id="148" parent="2" name="SPANISH_PUERTO_RICO"/>
-    <collation id="149" parent="2" name="SPANISH_SPAIN"/>
-    <collation id="150" parent="2" name="SPANISH_UNITED_STATES"/>
-    <collation id="151" parent="2" name="SPANISH_URUGUAY"/>
-    <collation id="152" parent="2" name="SPANISH_VENEZUELA"/>
-    <collation id="153" parent="2" name="SWEDISH"/>
-    <collation id="154" parent="2" name="SWEDISH_SWEDEN"/>
-    <collation id="155" parent="2" name="THAI"/>
-    <collation id="156" parent="2" name="THAI_THAILAND"/>
-    <collation id="157" parent="2" name="THAI_THAILAND_TH"/>
-    <collation id="158" parent="2" name="TURKISH"/>
-    <collation id="159" parent="2" name="TURKISH_TURKEY"/>
-    <collation id="160" parent="2" name="UKRAINIAN"/>
-    <collation id="161" parent="2" name="UKRAINIAN_UKRAINE"/>
-    <collation id="162" parent="2" name="VIETNAMESE"/>
-    <collation id="163" parent="2" name="VIETNAMESE_VIETNAM"/>
+    <collation id="72" parent="2" name="GERMAN_GREECE"/>
+    <collation id="73" parent="2" name="GERMAN_LUXEMBOURG"/>
+    <collation id="74" parent="2" name="GERMAN_SWITZERLAND"/>
+    <collation id="75" parent="2" name="GREEK"/>
+    <collation id="76" parent="2" name="GREEK_CYPRUS"/>
+    <collation id="77" parent="2" name="GREEK_GREECE"/>
+    <collation id="78" parent="2" name="HEBREW"/>
+    <collation id="79" parent="2" name="HEBREW_ISRAEL"/>
+    <collation id="80" parent="2" name="HINDI"/>
+    <collation id="81" parent="2" name="HINDI_INDIA"/>
+    <collation id="82" parent="2" name="HUNGARIAN"/>
+    <collation id="83" parent="2" name="HUNGARIAN_HUNGARY"/>
+    <collation id="84" parent="2" name="ICELANDIC"/>
+    <collation id="85" parent="2" name="ICELANDIC_ICELAND"/>
+    <collation id="86" parent="2" name="INDONESIAN"/>
+    <collation id="87" parent="2" name="INDONESIAN_INDONESIA"/>
+    <collation id="88" parent="2" name="IRISH"/>
+    <collation id="89" parent="2" name="IRISH_IRELAND"/>
+    <collation id="90" parent="2" name="ITALIAN"/>
+    <collation id="91" parent="2" name="ITALIAN_ITALY"/>
+    <collation id="92" parent="2" name="ITALIAN_SWITZERLAND"/>
+    <collation id="93" parent="2" name="JAPANESE"/>
+    <collation id="94" parent="2" name="JAPANESE_JAPAN"/>
+    <collation id="95" parent="2" name="JAPANESE_JAPAN_JP"/>
+    <collation id="96" parent="2" name="KOREAN"/>
+    <collation id="97" parent="2" name="KOREAN_SOUTH_KOREA"/>
+    <collation id="98" parent="2" name="LATVIAN"/>
+    <collation id="99" parent="2" name="LATVIAN_LATVIA"/>
+    <collation id="100" parent="2" name="LITHUANIAN"/>
+    <collation id="101" parent="2" name="LITHUANIAN_LITHUANIA"/>
+    <collation id="102" parent="2" name="MACEDONIAN"/>
+    <collation id="103" parent="2" name="MACEDONIAN_MACEDONIA"/>
+    <collation id="104" parent="2" name="MALAY"/>
+    <collation id="105" parent="2" name="MALAY_MALAYSIA"/>
+    <collation id="106" parent="2" name="MALTESE"/>
+    <collation id="107" parent="2" name="MALTESE_MALTA"/>
+    <collation id="108" parent="2" name="NORWEGIAN"/>
+    <collation id="109" parent="2" name="NORWEGIAN_NORWAY"/>
+    <collation id="110" parent="2" name="NORWEGIAN_NORWAY_NY"/>
+    <collation id="111" parent="2" name="POLISH"/>
+    <collation id="112" parent="2" name="POLISH_POLAND"/>
+    <collation id="113" parent="2" name="PORTUGUESE"/>
+    <collation id="114" parent="2" name="PORTUGUESE_BRAZIL"/>
+    <collation id="115" parent="2" name="PORTUGUESE_PORTUGAL"/>
+    <collation id="116" parent="2" name="ROMANIAN"/>
+    <collation id="117" parent="2" name="ROMANIAN_ROMANIA"/>
+    <collation id="118" parent="2" name="RUSSIAN"/>
+    <collation id="119" parent="2" name="RUSSIAN_RUSSIA"/>
+    <collation id="120" parent="2" name="SERBIAN"/>
+    <collation id="121" parent="2" name="SERBIAN_BOSNIA_AND_HERZEGOVINA"/>
+    <collation id="122" parent="2" name="SERBIAN_MONTENEGRO"/>
+    <collation id="123" parent="2" name="SERBIAN_SERBIA"/>
+    <collation id="124" parent="2" name="SERBIAN_SERBIA_AND_MONTENEGRO"/>
+    <collation id="125" parent="2" name="SLOVAK"/>
+    <collation id="126" parent="2" name="SLOVAK_SLOVAKIA"/>
+    <collation id="127" parent="2" name="SLOVENIAN"/>
+    <collation id="128" parent="2" name="SLOVENIAN_SLOVENIA"/>
+    <collation id="129" parent="2" name="SPANISH"/>
+    <collation id="130" parent="2" name="SPANISH_ARGENTINA"/>
+    <collation id="131" parent="2" name="SPANISH_BOLIVIA"/>
+    <collation id="132" parent="2" name="SPANISH_CHILE"/>
+    <collation id="133" parent="2" name="SPANISH_COLOMBIA"/>
+    <collation id="134" parent="2" name="SPANISH_COSTA_RICA"/>
+    <collation id="135" parent="2" name="SPANISH_CUBA"/>
+    <collation id="136" parent="2" name="SPANISH_DOMINICAN_REPUBLIC"/>
+    <collation id="137" parent="2" name="SPANISH_ECUADOR"/>
+    <collation id="138" parent="2" name="SPANISH_EL_SALVADOR"/>
+    <collation id="139" parent="2" name="SPANISH_GUATEMALA"/>
+    <collation id="140" parent="2" name="SPANISH_HONDURAS"/>
+    <collation id="141" parent="2" name="SPANISH_MEXICO"/>
+    <collation id="142" parent="2" name="SPANISH_NICARAGUA"/>
+    <collation id="143" parent="2" name="SPANISH_PANAMA"/>
+    <collation id="144" parent="2" name="SPANISH_PARAGUAY"/>
+    <collation id="145" parent="2" name="SPANISH_PERU"/>
+    <collation id="146" parent="2" name="SPANISH_PUERTO_RICO"/>
+    <collation id="147" parent="2" name="SPANISH_SPAIN"/>
+    <collation id="148" parent="2" name="SPANISH_UNITED_STATES"/>
+    <collation id="149" parent="2" name="SPANISH_URUGUAY"/>
+    <collation id="150" parent="2" name="SPANISH_VENEZUELA"/>
+    <collation id="151" parent="2" name="SWEDISH"/>
+    <collation id="152" parent="2" name="SWEDISH_SWEDEN"/>
+    <collation id="153" parent="2" name="THAI"/>
+    <collation id="154" parent="2" name="THAI_THAILAND"/>
+    <collation id="155" parent="2" name="THAI_THAILAND_TH"/>
+    <collation id="156" parent="2" name="TURKISH"/>
+    <collation id="157" parent="2" name="TURKISH_TURKEY"/>
+    <collation id="158" parent="2" name="UKRAINIAN"/>
+    <collation id="159" parent="2" name="UKRAINIAN_UKRAINE"/>
+    <collation id="160" parent="2" name="VIETNAMESE"/>
+    <collation id="161" parent="2" name="VIETNAMESE_VIETNAM"/>
+    <sequence id="162" parent="4" name="HIBERNATE_SEQUENCE">
+      <ObjectId>3</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>32</CacheSize>
+    </sequence>
+    <table id="163" parent="4" name="RECOMMENDATION">
+      <ObjectId>4</ObjectId>
+    </table>
+    <column id="164" parent="163" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="163" name="COMMENT">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+    </column>
+    <column id="166" parent="163" name="RATING">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <CheckExpression>((&quot;RATING&quot; &lt;= 5)
+    AND (&quot;RATING&quot; &gt;= 1))</CheckExpression>
+    </column>
+    <column id="167" parent="163" name="VIDEO_ID">
+      <Position>4</Position>
+      <DataType>BIGINT|0s</DataType>
+    </column>
+    <index id="168" parent="163" name="PRIMARY_KEY_4">
+      <ObjectId>5</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>78</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="169" parent="163" name="CONSTRAINT_4">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
