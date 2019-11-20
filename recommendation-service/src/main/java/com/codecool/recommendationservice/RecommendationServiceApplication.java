@@ -51,9 +51,26 @@ public class RecommendationServiceApplication {
 					.videoId(1L)
 					.build();
 
+			Recommendation commentForSc1 = Recommendation.builder()
+					.comment("For Aiur!")
+					.rating(4)
+					.videoId(2L)
+					.build();
 
+			Recommendation commentForSc2 = Recommendation.builder()
+					.comment("Little Probius saved the day...")
+					.rating(3)
+					.videoId(2L)
+					.build();
 
-			recommendationRepository.saveAll(Arrays.asList(commentForWotlk1, commentForWotlk2));
+			Recommendation commentForD1 = Recommendation.builder()
+					.comment("Blizzard should make movies instead of games.")
+					.rating(5)
+					.videoId(3L)
+					.build();
+
+			recommendationRepository.saveAll(Arrays.asList(commentForWotlk1, commentForWotlk2,
+					commentForSc1, commentForSc2, commentForD1));
 
 		};
 	}

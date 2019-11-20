@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d047e327-7fe6-4c15-aa9f-ecf449462c2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba7056bd-35a1-4dc7-95fd-4b80e644c474.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba7056bd-35a1-4dc7-95fd-4b80e644c474.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/codecool/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/codecool/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/RecommendationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/RecommendationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/entity/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/model/Recommendation.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/model/Recommendation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +216,7 @@
       <workItem from="1574063863764" duration="1514000" />
       <workItem from="1574070737859" duration="12047000" />
       <workItem from="1574152415647" duration="13812000" />
-      <workItem from="1574238458012" duration="13675000" />
+      <workItem from="1574238458012" duration="14656000" />
     </task>
     <servers />
   </component>

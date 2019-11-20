@@ -23,4 +23,6 @@ public class RecommendationController {
     public List<Recommendation> getAllRecommendationByVideoId(@PathVariable("videoId") Long videoId) {
         return recommendationRepository.getAllRecommendationByVideoId(videoId);
     }
+
+
 }
