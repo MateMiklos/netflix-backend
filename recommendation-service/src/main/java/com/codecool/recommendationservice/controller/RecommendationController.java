@@ -30,4 +30,9 @@ public class RecommendationController {
                                                      @RequestParam int rating) {
         recommendationService.createNewRecommendationForVideo(videoId, comment, rating);
     }
+
+    @PutMapping("/update/{id}")
+    public void updateRecommendation(@PathVariable("id") Long id) {
+        recommendationService.updateRecommendation();
+    }
 }

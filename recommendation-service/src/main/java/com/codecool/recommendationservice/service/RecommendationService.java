@@ -4,6 +4,7 @@ import com.codecool.recommendationservice.entity.Recommendation;
 import com.codecool.recommendationservice.repository.RecommendationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 @Service
 public class RecommendationService {
@@ -20,5 +21,9 @@ public class RecommendationService {
                 .build();
 
         recommendationRepository.save(recommendation);
+    }
+
+    public void updateRecommendation() {
+
     }
 }

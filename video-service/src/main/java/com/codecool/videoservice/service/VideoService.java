@@ -13,7 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Slf4j
@@ -58,5 +57,37 @@ public class VideoService {
                 .build();
 
         return videoWithRecommendations;
+    }
+
+//    public Recommendation updateVideoAndItsRecommendations(Long videoId, Long recommendationId,
+//                                                 String name, String url, String comment, int rating) {
+//
+//        Video video = getVideoById(videoId);
+//        video.setName(name);
+//        video.setUrl(url);
+//        videoRepository.save(video);
+//
+//        List<Recommendation> recommendations = getRecommendationsByVideoId(videoId);
+//        for (Recommendation recommendation : recommendations) {
+//            if (recommendation.getId().equals(recommendationId)) {
+//                recommendation.setComment(comment);
+//                recommendation.setRating(rating);
+//                return recommendation;
+//            }
+//        }
+//        return null;
+//    }
+
+    public Video updateVideo(Video videoToUpdate, Video video) {
+        videoToUpdate.setName(video.getName());
+        videoToUpdate.setUrl(video.getUrl());
+
+        videoRepository.save(videoToUpdate);
+
+        return videoToUpdate;
+    }
+
+    public void updateRecommendation(Recommendation recommendationToUpdate) {
+        restTemplate.put(baseUrl + "/" + recommendationToUpdate.getId().toString(), recommendationToUpdate);
     }
 }
