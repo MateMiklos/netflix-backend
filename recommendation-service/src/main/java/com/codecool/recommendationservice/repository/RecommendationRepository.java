@@ -11,4 +11,7 @@ public interface RecommendationRepository extends JpaRepository<Recommendation, 
 
     @Query("select r from Recommendation r where r.videoId = :videoId")
     List<Recommendation> getAllRecommendationByVideoId(@Param("videoId") Long videoId);
+
+    @Query("select r from Recommendation r where r.id = :id")
+    Recommendation getRecommendationById(@Param("id") Long id);
 }

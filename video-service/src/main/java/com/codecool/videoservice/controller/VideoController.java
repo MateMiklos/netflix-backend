@@ -5,14 +5,17 @@ import com.codecool.videoservice.model.Recommendation;
 import com.codecool.videoservice.model.VideoWithRecommendations;
 import com.codecool.videoservice.repository.VideoRepository;
 import com.codecool.videoservice.service.VideoService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @CrossOrigin
 @RestController
 @RequestMapping("/videos")
+@Slf4j
 public class VideoController {
 
     @Autowired
@@ -26,7 +29,7 @@ public class VideoController {
         return videoRepository.findAll();
     }
 
-    @GetMapping("/id/{id}")
+    @GetMapping("/{id}")
     public VideoWithRecommendations getVideoById(@PathVariable("id") Long id) {
         return videoService.getVideoPlusRecommendationsById(id);
     }
@@ -44,6 +47,13 @@ public class VideoController {
 //        return recommendationToUpdate;
 //    }
 
+    @PostMapping("/add/{videoId}")
+    public void addNewRecommendationToGivenVideoById(@PathVariable("videoId") Long videoId,
+                                                     @RequestBody Map<String , String> recommendation) {
+        log.info(recommendation.toString());
+        videoService.createNewRecommendationForVideo(videoId, recommendation);
+    }
+
     @PutMapping("/update-video/{id}")
     public Video updateVideo(@PathVariable("id") Long id, @RequestBody Video video) {
         Video videoToUpdate = getVideoById(id).getVideo();
@@ -51,7 +61,9 @@ public class VideoController {
     }
 
     @PutMapping("update-recommendation/{id}")
-    public void updateRecommendation(@RequestBody Recommendation recommendation) {
+    public void updateRecommendation(@PathVariable("id") Long id, @RequestBody Recommendation recommendation) {
         videoService.updateRecommendation(recommendation);
     }
+
+
 }

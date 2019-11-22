@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
+import java.util.Map;
 
 @Slf4j
 @Service
@@ -24,6 +25,7 @@ public class VideoService {
 
     @Autowired
     private RestTemplate restTemplate;
+
 
     @Value("${recommendation-service.url}")
     private String baseUrl;
@@ -88,6 +90,26 @@ public class VideoService {
     }
 
     public void updateRecommendation(Recommendation recommendationToUpdate) {
-        restTemplate.put(baseUrl + "/" + recommendationToUpdate.getId().toString(), recommendationToUpdate);
+//        restTemplate.put(baseUrl + "/update/" + recommendationToUpdate.getId().toString(), recommendationToUpdate);
+
+        String url = baseUrl + "/update/" + recommendationToUpdate.getId().toString();
+
+        ResponseEntity<List<Recommendation>> recommendations =
+                restTemplate.exchange(url, HttpMethod.POST, null,
+                new ParameterizedTypeReference<List<Recommendation>>() {});
+    }
+
+    public void createNewRecommendationForVideo(Long videoId, Map<String, String> recommendation) {
+        log.info("THIS IS THE RECOMMENDATION I WANT TO SAVE");
+        log.info(recommendation.toString());
+//        restTemplate.postForEntity(baseUrl + "/add/" + videoId, recommendation, String.class);
+
+        String url = baseUrl + "/update/" + recommendation.get("id");
+
+        ResponseEntity<List<Recommendation>> recommendations =
+                restTemplate.exchange(url, HttpMethod.POST, null,
+                        new ParameterizedTypeReference<List<Recommendation>>() {});
+
+
     }
 }
