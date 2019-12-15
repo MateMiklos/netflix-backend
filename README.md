@@ -4,7 +4,7 @@ This project is about to create an application that stores videos with recommend
 This application first of all is a practice for me to use micro services.<br>
 
 In this state of the project,<br>
-  -there is an eureka server where video-services and recommendation-services can be registered: hhttp://localhost:8761/ <br>
+  -there is an eureka server where video-services and recommendation-services can be registered: http://localhost:8761/ <br>
   -it can list all videos throught zuul-api at: http://localhost:8762/app/videos/ <br>
   -it can get info about a video with all its recommendations at: http://localhost:8762/app/videos/{videoId} <br>
   
