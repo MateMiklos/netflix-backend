@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d047e327-7fe6-4c15-aa9f-ecf449462c2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/model/RecommendationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/model/RecommendationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1584ff0e-6045-452d-82bf-4faff9709d99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1584ff0e-6045-452d-82bf-4faff9709d99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba7056bd-35a1-4dc7-95fd-4b80e644c474.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba7056bd-35a1-4dc7-95fd-4b80e644c474.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/controller/RecommendationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/controller/RecommendationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/repository/RecommendationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/repository/RecommendationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/codecool/recommendationservice/service/RecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/controller/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/codecool/videoservice/service/VideoService.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +117,10 @@
   </component>
   <component name="ProjectId" id="1TeYjmgIS2eIdjXErZ27wbxgGy1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -150,16 +148,6 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
-    </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.VideoServiceApplication">
@@ -193,24 +181,15 @@
     </configuration>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.14735658" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1d5727" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1d5727" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c22f8bfd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -233,7 +212,9 @@
       <workItem from="1574275183835" duration="565000" />
       <workItem from="1574281553429" duration="1213000" />
       <workItem from="1574324272987" duration="27707000" />
-      <workItem from="1574410771894" duration="3774000" />
+      <workItem from="1574410771894" duration="6759000" />
+      <workItem from="1574876684762" duration="165000" />
+      <workItem from="1576437386410" duration="306000" />
     </task>
     <servers />
   </component>

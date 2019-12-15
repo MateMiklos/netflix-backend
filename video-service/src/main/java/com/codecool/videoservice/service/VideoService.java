@@ -61,25 +61,6 @@ public class VideoService {
         return videoWithRecommendations;
     }
 
-//    public Recommendation updateVideoAndItsRecommendations(Long videoId, Long recommendationId,
-//                                                 String name, String url, String comment, int rating) {
-//
-//        Video video = getVideoById(videoId);
-//        video.setName(name);
-//        video.setUrl(url);
-//        videoRepository.save(video);
-//
-//        List<Recommendation> recommendations = getRecommendationsByVideoId(videoId);
-//        for (Recommendation recommendation : recommendations) {
-//            if (recommendation.getId().equals(recommendationId)) {
-//                recommendation.setComment(comment);
-//                recommendation.setRating(rating);
-//                return recommendation;
-//            }
-//        }
-//        return null;
-//    }
-
     public Video updateVideo(Video videoToUpdate, Video video) {
         videoToUpdate.setName(video.getName());
         videoToUpdate.setUrl(video.getUrl());
@@ -90,7 +71,6 @@ public class VideoService {
     }
 
     public void updateRecommendation(Recommendation recommendationToUpdate) {
-//        restTemplate.put(baseUrl + "/update/" + recommendationToUpdate.getId().toString(), recommendationToUpdate);
 
         String url = baseUrl + "/update/" + recommendationToUpdate.getId().toString();
 
@@ -102,7 +82,6 @@ public class VideoService {
     public void createNewRecommendationForVideo(Long videoId, Map<String, String> recommendation) {
         log.info("THIS IS THE RECOMMENDATION I WANT TO SAVE");
         log.info(recommendation.toString());
-//        restTemplate.postForEntity(baseUrl + "/add/" + videoId, recommendation, String.class);
 
         String url = baseUrl + "/update/" + recommendation.get("id");
 

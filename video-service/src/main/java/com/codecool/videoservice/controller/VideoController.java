@@ -34,19 +34,6 @@ public class VideoController {
         return videoService.getVideoPlusRecommendationsById(id);
     }
 
-//    @PostMapping("/{videoId}/{recommendationId}")
-//    public Recommendation updateVideoAndItsRecommendations(@PathVariable("videoId") Long videoId,
-//                                                           @PathVariable("recommendationId") Long recommendationId,
-//                                                           @RequestParam String name,
-//                                                           @RequestParam String url,
-//                                                           @RequestParam String comment,
-//                                                           @RequestParam int rating) {
-//        Recommendation recommendationToUpdate = videoService.
-//                updateVideoAndItsRecommendations(videoId, recommendationId, name, url, comment, rating);
-//
-//        return recommendationToUpdate;
-//    }
-
     @PostMapping("/add/{videoId}")
     public void addNewRecommendationToGivenVideoById(@PathVariable("videoId") Long videoId,
                                                      @RequestBody Map<String , String> recommendation) {
